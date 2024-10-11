@@ -1,0 +1,100 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Garden Management</title>  
+    <style>  
+        body {  
+            font-family: Arial, sans-serif;  
+            background-image: url('https://img.freepik.com/free-photo/agricultural-field-ai-generated_268835-9203.jpg?t=st=1728136714~exp=1728140314~hmac=a5dedbc2731ee6331c5761b969f4a24da005adcde3338a0dbdaf754b78cc0f22&w=740');   
+            background-size: cover;  
+            margin: 0;  
+            padding: 0;  
+        }  
+
+        .container {  
+            display: flex;  
+            flex-direction: column;  
+            align-items: center;  
+            height: 100vh;  
+            justify-content: center;  
+        }  
+
+        .menu {  
+            display: flex; /* Use flexbox to align items in a row */  
+            justify-content: center;  
+            gap: 20px;  
+            text-align: center;  
+            width: 100%;  
+            max-width: 900px; /* Set a max width for the menu */  
+        }  
+
+        .menu-item {  
+            display: flex; /* Use flexbox to center content */  
+            align-items: center; /* Center vertically */  
+            justify-content: center; /* Center horizontally */  
+            background-color: rgba(47, 139, 68, 0.8);  
+            border-radius: 5px; /* Set small border-radius for rectangular shape */  
+            padding: 20px;  
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
+            transition: transform 0.3s;  
+            color: white; /* Change text color to white */  
+            text-decoration: none; /* Remove underline from links */  
+            text-align: center; /* Center text property */  
+            height: 60px; /* Set height for rectilinear shape */  
+            width: 200px; /* Set width for rectilinear shape */  
+        }  
+
+        .menu-item:hover {  
+            transform: scale(1.1);  
+        }  
+
+        .about-container {  
+            display: flex;  
+            justify-content: center;  
+            margin-top: 20px; /* Space between main menu and ABOUT button */  
+            width: 100%;  
+        }  
+
+        .about-menu {  
+            width: 250px; /* Set a width for the ABOUT button */  
+        }  
+
+        /* Styles for the go back button */
+        .go-back {  
+            position: absolute;  
+            top: 10px;  
+            left: 10px;  
+            background-color: rgba(255, 255, 255, 0.5); /* Slightly transparent white */  
+            border: none;  
+            border-radius: 5px;  
+            padding: 5px 10px;  
+            color: #333;  
+            font-size: 12px;  
+            cursor: pointer;  
+            text-decoration: none;  
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);  
+            display: none; /* Initially hidden */  
+        }  
+
+        /* Show button when hovered */
+        body:hover .go-back {
+            display: inline; /* Show on hover over the body */
+        }
+    </style>  
+</head>  
+<body>  
+    <a href="FRONTPAGE.html" class="go-back">Go Back</a> <!-- Go Back button -->
+    <div class="container">  
+        <div class="menu">  
+            <a href="weeddetection.html" class="menu-item">WEED ANALYSIS</a>  
+            <a href="waterfootprintcalculatorfrontpage.html" class="menu-item">WATER FOOTPRINT CALCULATOR</a>  
+            <a href="theclimateAnalysis.html" class="menu-item">CLIMATE ANALYSIS</a>  
+        </div>  
+        <div class="about-container">  
+            <a href="website_About.html" class="menu-item about-menu">ABOUT</a>  
+        </div>  
+    </div>  
+</body>  
+</html>
