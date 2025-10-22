@@ -1,5 +1,5 @@
 🌱 GREEN SENSUS
-Leveraging Earth Observation Data for Informed Agricultural Decision-Making
+Leveraging Earth Observation Data for Informed Agricultural Decision-Making 
 A project for NASA International Space Apps Challenge 2024
 
 🚀 About the Project
