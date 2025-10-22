@@ -1,8 +1,7 @@
-🌱 GREEN SENSUS
 Leveraging Earth Observation Data for Informed Agricultural Decision-Making 
 A project for NASA International Space Apps Challenge 2024
 
-🚀 About the Project
+**GREEN SENSUS -**
 Green Sensus is a beginner-friendly web application designed to help farmers and gardeners make data-driven agricultural decisions.
 We built this project as part of the NASA Space Apps Challenge 2024 hosted at Amal Jyothi College of Engineering (Autonomous), Kanjirappilly.
 
